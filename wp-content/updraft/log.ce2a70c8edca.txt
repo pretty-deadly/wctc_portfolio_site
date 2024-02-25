@@ -1,0 +1,611 @@
+0000.000 (0) Opened log file at time: Sat, 24 Feb 2024 05:56:19 +0000 on https://tvigil.bitlampsites.com/portfolio/wordpress%202
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.0.30 (fpm-fcgi, Linux bitlamp 3.10.0-1160.88.1.el7.x86_64 #1 SMP Sat Feb 18 13:27:00 UTC 2023 x86_64) MySQL: 10.4.33-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips PHP/8.0.30 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 47M | 50M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.036 (0) Free space on disk containing Updraft's temporary directory: 29255 MB
+0000.082 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.085 (0) Semaphore (fd, wp_wc_portfolio__options) being initialised
+0000.137 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.269 (0) Set semaphore last lock (fd) time to 2024-02-24 05:56:19
+0000.313 (0) Semaphore lock (fd) complete
+0000.401 (0) Backup run: resumption=0, nonce=ce2a70c8edca, file_nonce=ce2a70c8edca begun at=1708754179 (0s ago), job type=backup
+0000.431 (0) Scheduling a resumption (1) after 300 seconds (1708754479) in case this run gets aborted
+0000.471 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/home/tvigil/) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.480 (0) Checking if we have a zip executable available
+0000.525 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/zip) is not within the allowed path(s): (/home/tvigil/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.538 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/zip) is not within the allowed path(s): (/home/tvigil/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.581 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/zip) is not within the allowed path(s): (/home/tvigil/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.626 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/zip) is not within the allowed path(s): (/home/tvigil/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.629 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/zip) is not within the allowed path(s): (/home/tvigil/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.643 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/zip) is not within the allowed path(s): (/home/tvigil/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.693 (0) Creation of backups of directories: beginning
+0000.784 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.830 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/home/tvigil/) (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0002.516 (0) Total entities for the zip file: 467 directories, 2972 files (0 skipped as non-modified), 61 MB
+0002.557 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.596 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.635 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.693 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.728 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.767 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.807 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.847 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.890 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.929 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.959 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.4 MB, 2972 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0004.889 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1100 files added (on-disk size: 7290.1 KB)
+0004.928 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1200 files added (on-disk size: 7290.1 KB)
+0004.966 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1300 files added (on-disk size: 7290.1 KB)
+0005.044 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1400 files added (on-disk size: 7290.1 KB)
+0005.082 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1500 files added (on-disk size: 7290.1 KB)
+0005.129 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1600 files added (on-disk size: 7290.1 KB)
+0005.163 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1700 files added (on-disk size: 7290.1 KB)
+0005.199 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1800 files added (on-disk size: 7290.1 KB)
+0005.233 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 1900 files added (on-disk size: 7290.1 KB)
+0005.271 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2000 files added (on-disk size: 7290.1 KB)
+0005.274 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.9 MB, 2972 files batched, 1001 (2002) added so far); re-opening (prior size: 7290.1 KB)
+0007.012 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2100 files added (on-disk size: 13430.4 KB)
+0007.047 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2200 files added (on-disk size: 13430.4 KB)
+0007.092 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2300 files added (on-disk size: 13430.4 KB)
+0007.141 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2400 files added (on-disk size: 13430.4 KB)
+0007.193 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2500 files added (on-disk size: 13430.4 KB)
+0007.236 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2600 files added (on-disk size: 13430.4 KB)
+0007.280 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2700 files added (on-disk size: 13430.4 KB)
+0007.331 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2800 files added (on-disk size: 13430.4 KB)
+0007.377 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.tmp: 2900 files added (on-disk size: 13430.4 KB)
+0009.124 (0) Creating zip file manifest (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.list-temp.tmp)
+0009.142 (0) Successfully created zip file manifest (size: 239082)
+0009.311 (0) Created plugins zip (0) - 19449.3 KB in 8.5 s (2294.3 KB/s) (sha1: 4a103cefa6a54ea5d27c9cab695ae7fd435c77cf, sha256: e7940a66ae726f09784f0f3d5c0b4a6d997c3bdfc0590a371fdcee79f1c6a211)
+0009.373 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.417 (0) No remote despatch: user chose no remote backup service
+0009.461 (0) Recording as successfully uploaded: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip
+0009.509 (0) Deleting zip manifest (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip.list.tmp)
+0009.514 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.557 (0) Number of backup sets in history: 0; groups (db): 1
+0009.600 (0) Number of backup sets in history: 0; groups (files): 1
+0009.645 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0009.863 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.866 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/home/tvigil/) (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0010.123 (0) Total entities for the zip file: 91 directories, 478 files (0 skipped as non-modified), 15.6 MB
+0010.167 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.206 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.242 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.275 (0) Zip: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0011.107 (0) Creating zip file manifest (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-themes.zip.list-temp.tmp)
+0011.160 (0) Successfully created zip file manifest (size: 34105)
+0011.328 (0) Created themes zip (0) - 13775.3 KB in 1.5 s (9453.9 KB/s) (sha1: a25884b3ff6d212eb3bc59f2260b7e530d51969f, sha256: ff92bfa773c05dc3000dd0379d042ca26087bd03af140bca94d4654bf85e2123)
+0011.393 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.437 (0) No remote despatch: user chose no remote backup service
+0011.439 (0) Recording as successfully uploaded: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-themes.zip
+0011.525 (0) Deleting zip manifest (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-themes.zip.list.tmp)
+0011.571 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.618 (0) Number of backup sets in history: 0; groups (db): 1
+0011.661 (0) Number of backup sets in history: 0; groups (files): 1
+0011.688 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0011.865 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0011.913 (0) Looking for candidates to backup in: /home/tvigil/public_html/portfolio/wordpress 2/wp-content/uploads
+0011.916 (0) finding files: 2023: adding to list (1)
+0011.961 (0) finding files: 2024: adding to list (2)
+0012.005 (0) finding files: ultp: adding to list (3)
+0012.047 (0) finding files: ultimate-post: adding to list (4)
+0012.057 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0012.061 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/home/tvigil/) (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0012.137 (0) Total entities for the zip file: 8 directories, 59 files (0 skipped as non-modified), 17.2 MB
+0012.292 (0) Creating zip file manifest (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-uploads.zip.list-temp.tmp)
+0012.294 (0) Successfully created zip file manifest (size: 3872)
+0012.446 (0) Created uploads zip (0) - 17480 KB in 0.4 s (45912.3 KB/s) (sha1: a75499765ebad7b025ede55175fe940b90cc2a32, sha256: a95fd0efd4148b809260c4cdcc36c3767a42f7e94a51e2bec481707e65576bb4)
+0012.537 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.581 (0) No remote despatch: user chose no remote backup service
+0012.625 (0) Recording as successfully uploaded: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-uploads.zip
+0012.676 (0) Deleting zip manifest (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-uploads.zip.list.tmp)
+0012.682 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.707 (0) Number of backup sets in history: 0; groups (db): 1
+0012.753 (0) Number of backup sets in history: 0; groups (files): 1
+0012.797 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0012.930 (0) No backup of mu-plugins: excluded by user's options
+0012.977 (0) Beginning backup of other directories found in the content directory (index: 0)
+0013.021 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0013.059 (0) Looking for candidates to backup in: /home/tvigil/public_html/portfolio/wordpress 2/wp-content
+0013.092 (0) finding files: themes: skipping: this is the themes directory
+0013.121 (0) finding files: plugins: skipping: this is the plugins directory
+0013.165 (0) finding files: index.php: adding to list (1)
+0013.192 (0) finding files: uploads: skipping: this is the uploads directory
+0013.236 (0) finding files: upgrade: skipping: excluded by options
+0013.238 (0) finding files: upgrade-temp-backup: adding to list (2)
+0013.255 (0) finding files: db.php: adding to list (3)
+0013.290 (0) finding files: updraft: skipping: this is the updraft directory
+0013.319 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/home/tvigil/) (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0013.387 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0013.393 (0) Creating zip file manifest (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-others.zip.list-temp.tmp)
+0013.395 (0) Successfully created zip file manifest (size: 59)
+0013.436 (0) Created others zip (0) - 1.4 KB in 0.1 s (14.9 KB/s) (sha1: ed478fc154e214724a019a772ef6078053854a10, sha256: 83d2408efe7b68320bd57c9b674b785ddfd382aae657b5ccb14c31cd43b35365)
+0013.461 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0013.476 (0) No remote despatch: user chose no remote backup service
+0013.521 (0) Recording as successfully uploaded: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-others.zip
+0013.569 (0) Deleting zip manifest (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-others.zip.list.tmp)
+0013.582 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0013.599 (0) Number of backup sets in history: 0; groups (db): 1
+0013.607 (0) Number of backup sets in history: 0; groups (files): 1
+0013.612 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0013.727 (0) Saving backup status to database (elements: 8)
+0013.732 (0) Beginning creation of database dump (WordPress DB)
+0013.735 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0013.740 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/mysqldump) is not within the allowed path(s): (/home/tvigil/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0013.742 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/mysqldump) is not within the allowed path(s): (/home/tvigil/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0013.743 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/mysqldump) is not within the allowed path(s): (/home/tvigil/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0013.745 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/mysqldump) is not within the allowed path(s): (/home/tvigil/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0013.748 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/mysqldump) is not within the allowed path(s): (/home/tvigil/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0013.749 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/mysqldump) is not within the allowed path(s): (/home/tvigil/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0013.929 (0) Table wp_wc_portfolio__options: Total expected rows (via COUNT): 245
+0013.934 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.992 (0) Table wp_wc_portfolio__options: Rows added in this batch (next record: 555): 241 (uncompressed bytes in this segment=1196864) in 0.07 seconds
+0014.026 (0) Table wp_wc_portfolio__options: finishing file(s) (2, 283.7 KB)
+0014.062 (0) Table wp_wc_portfolio__users: Total expected rows (via COUNT): 8
+0014.064 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.086 (0) Table wp_wc_portfolio__users: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2505) in 0.03 seconds
+0014.098 (0) Table wp_wc_portfolio__users: finishing file(s) (2, 1.1 KB)
+0014.162 (0) Table wp_wc_portfolio__usermeta: Total expected rows (via COUNT): 141
+0014.205 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.338 (0) Table wp_wc_portfolio__usermeta: Rows added in this batch (next record: 141): 141 (uncompressed bytes in this segment=8732) in 0.18 seconds
+0014.435 (0) Table wp_wc_portfolio__usermeta: finishing file(s) (2, 2.5 KB)
+0014.516 (0) Table wp_wc_portfolio__commentmeta: Total expected rows (via COUNT): 0
+0014.547 (0) Table wp_wc_portfolio__commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.04 seconds
+0014.577 (0) Table wp_wc_portfolio__commentmeta: finishing file(s) (2, 0.4 KB)
+0014.584 (0) Table wp_wc_portfolio__comments: Total expected rows (via COUNT): 1
+0014.586 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.590 (0) Table wp_wc_portfolio__comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1994) in 0.01 seconds
+0014.597 (0) Table wp_wc_portfolio__comments: finishing file(s) (2, 0.8 KB)
+0014.607 (0) Table wp_wc_portfolio__links: Total expected rows (via COUNT): 0
+0014.653 (0) Table wp_wc_portfolio__links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1111) in 0.05 seconds
+0014.703 (0) Table wp_wc_portfolio__links: finishing file(s) (2, 0.5 KB)
+0014.795 (0) Table wp_wc_portfolio__postmeta: Total expected rows (via COUNT): 103
+0014.835 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.847 (0) Table wp_wc_portfolio__postmeta: Rows added in this batch (next record: 111): 103 (uncompressed bytes in this segment=28897) in 0.06 seconds
+0014.856 (0) Table wp_wc_portfolio__postmeta: finishing file(s) (2, 5.6 KB)
+0014.951 (0) Table wp_wc_portfolio__posts: Total expected rows (via COUNT): 50
+0014.977 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.067 (0) Table wp_wc_portfolio__posts: Rows added in this batch (next record: 67): 50 (uncompressed bytes in this segment=41320) in 0.12 seconds
+0015.162 (0) Table wp_wc_portfolio__posts: finishing file(s) (2, 9.1 KB)
+0015.252 (0) Table wp_wc_portfolio__term_relationships: Total expected rows (approximate): 3
+0015.298 (0) Table wp_wc_portfolio__term_relationships: Rows added in this batch (next record: 100000): 4 (uncompressed bytes in this segment=833) in 0.05 seconds
+0015.313 (0) Table wp_wc_portfolio__term_relationships: finishing file(s) (2, 0.4 KB)
+0015.362 (0) Table wp_wc_portfolio__term_taxonomy: Total expected rows (via COUNT): 5
+0015.409 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.446 (0) Table wp_wc_portfolio__term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1093) in 0.09 seconds
+0015.538 (0) Table wp_wc_portfolio__term_taxonomy: finishing file(s) (2, 0.5 KB)
+0015.616 (0) Table wp_wc_portfolio__termmeta: Total expected rows (via COUNT): 0
+0015.681 (0) Table wp_wc_portfolio__termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.07 seconds
+0015.779 (0) Table wp_wc_portfolio__termmeta: finishing file(s) (2, 0.4 KB)
+0015.872 (0) Table wp_wc_portfolio__terms: Total expected rows (via COUNT): 5
+0015.875 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.966 (0) Table wp_wc_portfolio__terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=929) in 0.10 seconds
+0015.984 (0) Table wp_wc_portfolio__terms: finishing file(s) (2, 0.5 KB)
+0016.002 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Album
+0016.005 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Artist
+0016.007 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): City
+0016.009 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): CityPlace
+0016.013 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Country
+0016.016 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): CountryLanguage
+0016.020 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Customer
+0016.022 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Employee
+0016.025 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Genre
+0016.029 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Invoice
+0016.032 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): InvoiceLine
+0016.036 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): MediaType
+0016.041 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Playlist
+0016.046 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): PlaylistTrack
+0016.050 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): Track
+0016.054 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksitecommentmeta
+0016.058 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksitecomments
+0016.066 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksitelinks
+0016.079 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksiteoptions
+0016.090 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksitepostmeta
+0016.097 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksiteposts
+0016.101 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksiteterm_relationships
+0016.145 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksiteterm_taxonomy
+0016.186 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksitetermmeta
+0016.201 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksiteterms
+0016.204 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksiteusermeta
+0016.205 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): __wp_booksiteusers
+0016.207 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): final__customers
+0016.253 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): final__designers
+0016.301 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): final__perfumery
+0016.354 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): final__scentfamily
+0016.356 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__commentmeta
+0016.401 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__comments
+0016.445 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__links
+0016.447 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__options
+0016.465 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__postmeta
+0016.509 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__posts
+0016.553 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__term_relationships
+0016.597 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__term_taxonomy
+0016.641 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__termmeta
+0016.685 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__terms
+0016.694 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__usermeta
+0016.737 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_homework3__users
+0016.740 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__commentmeta
+0016.785 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__comments
+0016.829 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__links
+0016.873 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_action_meta
+0016.917 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_actions
+0016.961 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_chunks
+0017.005 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_field_meta
+0017.049 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_fields
+0017.094 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_form_meta
+0017.141 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_forms
+0017.185 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_object_meta
+0017.229 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_objects
+0017.273 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_relationships
+0017.317 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__nf3_upgrades
+0017.319 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__options
+0017.369 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__postmeta
+0017.457 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__posts
+0017.459 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__term_relationships
+0017.477 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__term_taxonomy
+0017.521 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__termmeta
+0017.565 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__terms
+0017.572 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__usermeta
+0017.574 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_ito__users
+0017.617 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__actionscheduler_actions
+0017.661 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__actionscheduler_claims
+0017.690 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__actionscheduler_groups
+0017.714 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__actionscheduler_logs
+0017.769 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__commentmeta
+0017.813 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__comments
+0017.817 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__links
+0017.861 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__options
+0017.905 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__postmeta
+0017.949 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__posts
+0017.993 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__rank_math_internal_links
+0018.037 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__rank_math_internal_meta
+0018.070 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__term_relationships
+0018.113 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__term_taxonomy
+0018.115 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__termmeta
+0018.162 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__terms
+0018.190 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__usermeta
+0018.233 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__users
+0018.277 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfblockediplog
+0018.321 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfblocks7
+0018.365 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfconfig
+0018.409 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfcrawlers
+0018.453 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wffilechanges
+0018.456 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wffilemods
+0018.501 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfhits
+0018.545 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfhoover
+0018.589 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfissues
+0018.616 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfknownfilelist
+0018.661 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wflivetraffichuman
+0018.705 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wflocs
+0018.749 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wflogins
+0018.751 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfls_2fa_secrets
+0018.782 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfls_role_counts
+0018.784 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfls_settings
+0018.829 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfnotifications
+0018.873 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfpendingissues
+0018.917 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfreversecache
+0018.924 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfsecurityevents
+0018.926 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfsnipcache
+0018.973 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfstatus
+0019.017 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wftrafficrates
+0019.052 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_tvigil001__wfwaffailures
+0019.063 (0) Table wp_wc_portfolio__frm_fields: Total expected rows (via COUNT): 5
+0019.066 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.068 (0) Table wp_wc_portfolio__frm_fields: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=5983) in 0.01 seconds
+0019.078 (0) Table wp_wc_portfolio__frm_fields: finishing file(s) (2, 1.1 KB)
+0019.089 (0) Table wp_wc_portfolio__frm_forms: Total expected rows (via COUNT): 2
+0019.133 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.140 (0) Table wp_wc_portfolio__frm_forms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3849) in 0.06 seconds
+0019.234 (0) Table wp_wc_portfolio__frm_forms: finishing file(s) (2, 1.2 KB)
+0019.328 (0) Table wp_wc_portfolio__frm_item_metas: Total expected rows (via COUNT): 0
+0019.417 (0) Table wp_wc_portfolio__frm_item_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.09 seconds
+0019.443 (0) Table wp_wc_portfolio__frm_item_metas: finishing file(s) (2, 0.4 KB)
+0019.502 (0) Table wp_wc_portfolio__frm_items: Total expected rows (via COUNT): 0
+0019.505 (0) Table wp_wc_portfolio__frm_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1142) in 0.01 seconds
+0019.513 (0) Table wp_wc_portfolio__frm_items: finishing file(s) (2, 0.5 KB)
+0019.521 (0) Table wp_wc_portfolio__smush_dir_images: Total expected rows (via COUNT): 0
+0019.523 (0) Table wp_wc_portfolio__smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1009) in 0.00 seconds
+0019.531 (0) Table wp_wc_portfolio__smush_dir_images: finishing file(s) (2, 0.5 KB)
+0019.545 (0) Table wp_wc_portfolio__wpuf_subscribers: Total expected rows (via COUNT): 0
+0019.562 (0) Table wp_wc_portfolio__wpuf_subscribers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=853) in 0.02 seconds
+0019.611 (0) Table wp_wc_portfolio__wpuf_subscribers: finishing file(s) (2, 0.4 KB)
+0019.709 (0) Table wp_wc_portfolio__wpuf_transaction: Total expected rows (via COUNT): 0
+0019.758 (0) Table wp_wc_portfolio__wpuf_transaction: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1218) in 0.05 seconds
+0019.820 (0) Table wp_wc_portfolio__wpuf_transaction: finishing file(s) (2, 0.5 KB)
+0019.865 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__commentmeta
+0019.909 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__comments
+0019.953 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__links
+0019.998 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_action_meta
+0020.041 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_actions
+0020.085 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_chunks
+0020.129 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_field_meta
+0020.159 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_fields
+0020.162 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_form_meta
+0020.164 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_forms
+0020.253 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_object_meta
+0020.308 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_objects
+0020.405 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_relationships
+0020.449 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__nf3_upgrades
+0020.452 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__options
+0020.456 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__postmeta
+0020.457 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__posts
+0020.503 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__smush_dir_images
+0020.582 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__term_relationships
+0020.609 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__term_taxonomy
+0020.658 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__termmeta
+0020.701 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__terms
+0020.704 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__usermeta
+0020.749 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wp_wpd_final__users
+0020.795 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__commentmeta
+0020.801 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__comments
+0020.845 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__links
+0020.889 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__options
+0020.907 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__postmeta
+0020.915 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__posts
+0020.918 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__term_relationships
+0020.961 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__term_taxonomy
+0020.990 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__termmeta
+0020.993 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__terms
+0021.037 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__usermeta
+0021.081 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework2__users
+0021.106 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__commentmeta
+0021.429 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__comments
+0021.475 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__links
+0021.565 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__options
+0021.613 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__postmeta
+0021.662 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__posts
+0021.678 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__term_relationships
+0021.717 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__term_taxonomy
+0021.761 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__termmeta
+0021.809 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__terms
+0021.853 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__usermeta
+0021.897 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_homework__users
+0021.916 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__commentmeta
+0021.961 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__comments
+0022.005 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__links
+0022.049 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__options
+0022.093 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__postmeta
+0022.137 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__posts
+0022.139 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__term_relationships
+0022.159 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__term_taxonomy
+0022.205 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__termmeta
+0022.249 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__terms
+0022.293 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__usermeta
+0022.337 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpd_sandbox__users
+0022.381 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_commentmeta
+0022.425 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_comments
+0022.431 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_links
+0022.433 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_options
+0022.479 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_postmeta
+0022.565 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_posts
+0022.569 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_term_relationships
+0022.613 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_term_taxonomy
+0022.662 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_termmeta
+0022.664 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_terms
+0022.673 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_usermeta
+0022.753 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_users
+0022.841 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_yoast_indexable
+0022.929 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_yoast_indexable_hierarchy
+0023.025 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_yoast_migrations
+0023.069 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_yoast_primary_term
+0023.113 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wpfinal_yoast_seo_links
+0023.156 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_actionscheduler_actions
+0023.166 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_actionscheduler_claims
+0023.182 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_actionscheduler_groups
+0023.184 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_actionscheduler_logs
+0023.186 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_commentmeta
+0023.189 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_comments
+0023.193 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_duplicator_packages
+0023.196 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_links
+0023.198 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_action_meta
+0023.201 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_actions
+0023.206 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_chunks
+0023.209 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_field_meta
+0023.211 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_fields
+0023.213 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_form_meta
+0023.217 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_forms
+0023.220 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_object_meta
+0023.223 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_objects
+0023.226 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_relationships
+0023.228 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_nf3_upgrades
+0023.231 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_options
+0023.276 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_postmeta
+0023.321 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_posts
+0023.323 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_tec_events
+0023.369 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_tec_occurrences
+0023.413 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_term_relationships
+0023.415 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_term_taxonomy
+0023.461 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_termmeta
+0023.463 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_terms
+0023.509 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_um_metadata
+0023.533 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_usermeta
+0023.577 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_users
+0023.623 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfblockediplog
+0023.710 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfblocks7
+0023.754 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfconfig
+0023.801 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfcrawlers
+0023.890 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wffilechanges
+0023.977 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wffilemods
+0024.065 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfhits
+0024.122 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfhoover
+0024.148 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfissues
+0024.241 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfknownfilelist
+0024.252 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wflivetraffichuman
+0024.297 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wflocs
+0024.321 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wflogins
+0024.364 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfls_2fa_secrets
+0024.403 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfls_role_counts
+0024.449 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfls_settings
+0024.451 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfnotifications
+0024.497 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfpendingissues
+0024.505 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfreversecache
+0024.507 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfsnipcache
+0024.513 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wfstatus
+0024.551 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_wftrafficrates
+0024.555 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_yoast_indexable
+0024.558 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_yoast_indexable_hierarchy
+0024.561 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_yoast_migrations
+0024.566 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_yoast_primary_term
+0024.569 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wphomework_yoast_seo_links
+0024.575 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_commentmeta
+0024.578 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_comments
+0024.580 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_links
+0024.582 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_action_meta
+0024.585 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_actions
+0024.587 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_chunks
+0024.590 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_field_meta
+0024.593 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_fields
+0024.598 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_form_meta
+0024.601 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_forms
+0024.609 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_object_meta
+0024.612 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_objects
+0024.615 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_relationships
+0024.673 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_nf3_upgrades
+0024.675 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_options
+0024.721 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_postmeta
+0024.765 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_posts
+0024.809 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_term_relationships
+0024.853 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_term_taxonomy
+0024.868 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_termmeta
+0024.883 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_terms
+0024.929 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_usermeta
+0024.973 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplab_users
+0024.979 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_actionscheduler_actions
+0024.981 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_actionscheduler_claims
+0024.982 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_actionscheduler_groups
+0024.983 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_actionscheduler_logs
+0024.985 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_bulletinwp_bulletins
+0024.986 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_bulletinwp_options
+0024.988 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_commentmeta
+0025.077 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_comments
+0025.165 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_duplicator_packages
+0025.209 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_fbv
+0025.253 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_fbv_attachment_folder
+0025.255 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_links
+0025.257 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_login_redirects
+0025.345 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_options
+0025.391 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_postmeta
+0025.455 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_posts
+0025.458 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_coupons
+0025.468 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_customers
+0025.513 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_forms
+0025.563 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_formsmeta
+0025.585 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_meta_data
+0025.597 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_ordermeta
+0025.600 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_orders
+0025.610 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_plans
+0025.622 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_sessions
+0025.665 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_ppress_subscriptions
+0025.729 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_redirection_404
+0025.773 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_redirection_groups
+0025.818 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_redirection_items
+0025.861 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_redirection_logs
+0025.903 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_swpm_members_tbl
+0025.949 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_swpm_membership_meta_tbl
+0025.960 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_swpm_membership_tbl
+0026.001 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_swpm_payments_tbl
+0026.003 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_tec_events
+0026.049 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_tec_occurrences
+0026.078 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_term_relationships
+0026.080 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_term_taxonomy
+0026.169 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_termmeta
+0026.241 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_terms
+0026.289 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_um_metadata
+0026.377 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_usermeta
+0026.391 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_users
+0026.393 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfblockediplog
+0026.395 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfblocks7
+0026.443 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfconfig
+0026.529 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfcrawlers
+0026.573 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wffilechanges
+0026.617 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wffilemods
+0026.661 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfhits
+0026.663 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfhoover
+0026.709 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfissues
+0026.750 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfknownfilelist
+0026.795 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wflivetraffichuman
+0026.838 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wflocs
+0026.881 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wflogins
+0026.925 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfls_2fa_secrets
+0026.969 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfls_role_counts
+0026.971 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfls_settings
+0027.017 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfnotifications
+0027.024 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfpendingissues
+0027.034 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfreversecache
+0027.066 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfsecurityevents
+0027.109 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfsnipcache
+0027.120 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfstatus
+0027.160 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wftrafficrates
+0027.205 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wfwaffailures
+0027.249 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_wpforms_tasks_meta
+0027.291 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_yoast_indexable
+0027.293 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_yoast_indexable_hierarchy
+0027.361 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_yoast_migrations
+0027.366 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_yoast_primary_term
+0027.409 (0) Skipping table (lacks our prefix (wp_wc_portfolio__)): wplecture_yoast_seo_links
+0027.478 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/tvigil/public_html/portfolio/wordpress 2/wp-content/updraft/backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0027.522 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__options.table.tmpr556.gz (1/358/fopen): adding to final database dump
+0027.530 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__options.table.gz (2/358/fopen): adding to final database dump
+0027.533 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__users.table.tmpr9.gz (3/358/fopen): adding to final database dump
+0027.577 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__users.table.gz (4/358/fopen): adding to final database dump
+0027.580 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__usermeta.table.tmpr142.gz (5/358/fopen): adding to final database dump
+0027.623 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__usermeta.table.gz (6/358/fopen): adding to final database dump
+0027.669 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__commentmeta.table.tmpr0.gz (7/358/fopen): adding to final database dump
+0027.713 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__commentmeta.table.gz (8/358/fopen): adding to final database dump
+0027.715 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__comments.table.tmpr2.gz (9/358/fopen): adding to final database dump
+0027.725 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__comments.table.gz (10/358/fopen): adding to final database dump
+0027.727 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__links.table.tmpr0.gz (11/358/fopen): adding to final database dump
+0027.758 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__links.table.gz (12/358/fopen): adding to final database dump
+0027.760 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__postmeta.table.tmpr112.gz (13/358/fopen): adding to final database dump
+0027.805 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__postmeta.table.gz (14/358/fopen): adding to final database dump
+0027.814 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__posts.table.tmpr68.gz (15/358/fopen): adding to final database dump
+0027.824 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__posts.table.gz (16/358/fopen): adding to final database dump
+0027.826 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__term_relationships.table.tmpr100001.gz (17/358/fopen): adding to final database dump
+0027.869 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__term_relationships.table.gz (18/358/fopen): adding to final database dump
+0027.872 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__term_taxonomy.table.tmpr6.gz (19/358/fopen): adding to final database dump
+0027.918 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__term_taxonomy.table.gz (20/358/fopen): adding to final database dump
+0027.920 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__termmeta.table.tmpr0.gz (21/358/fopen): adding to final database dump
+0027.965 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__termmeta.table.gz (22/358/fopen): adding to final database dump
+0027.967 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__terms.table.tmpr6.gz (23/358/fopen): adding to final database dump
+0028.014 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__terms.table.gz (24/358/fopen): adding to final database dump
+0028.016 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__frm_fields.table.tmpr6.gz (25/358/fopen): adding to final database dump
+0028.061 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__frm_fields.table.gz (26/358/fopen): adding to final database dump
+0028.065 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__frm_forms.table.tmpr3.gz (27/358/fopen): adding to final database dump
+0028.073 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__frm_forms.table.gz (28/358/fopen): adding to final database dump
+0028.075 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__frm_item_metas.table.tmpr0.gz (29/358/fopen): adding to final database dump
+0028.117 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__frm_item_metas.table.gz (30/358/fopen): adding to final database dump
+0028.120 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__frm_items.table.tmpr0.gz (31/358/fopen): adding to final database dump
+0028.165 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__frm_items.table.gz (32/358/fopen): adding to final database dump
+0028.167 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__smush_dir_images.table.tmpr0.gz (33/358/fopen): adding to final database dump
+0028.208 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__smush_dir_images.table.gz (34/358/fopen): adding to final database dump
+0028.210 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__wpuf_subscribers.table.tmpr0.gz (35/358/fopen): adding to final database dump
+0028.217 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__wpuf_subscribers.table.gz (36/358/fopen): adding to final database dump
+0028.219 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__wpuf_transaction.table.tmpr0.gz (37/358/fopen): adding to final database dump
+0028.229 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db-table-wp_wc_portfolio__wpuf_transaction.table.gz (38/358/fopen): adding to final database dump
+0028.238 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db.gz: finished writing out complete database file (311.7 KB)
+0028.259 (0) Total database tables backed up: 19 (backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db.gz, size: 319295, sha1: d530e7b9edb30a4cac7a3767bd342d87c54ff370, sha256: 0fe2353513d37b6b9e119be2626251e310c8bae35927f225cef670edd3803eb2)
+0028.272 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-plugins.zip: plugins: This file has already been successfully uploaded
+0028.274 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-themes.zip: themes: This file has already been successfully uploaded
+0028.275 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-uploads.zip: uploads: This file has already been successfully uploaded
+0028.277 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-others.zip: others: This file has already been successfully uploaded
+0028.279 (0) backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db.gz: db: This file has not yet been successfully uploaded: will queue
+0028.281 (0) Saving backup history. Total backup size: 49.8 MB
+0028.287 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0028.295 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0028.300 (0) No remote despatch: user chose no remote backup service
+0028.302 (0) Recording as successfully uploaded: backup_2024-02-24-0556_WCTC_Portfolio_Showcase_ce2a70c8edca-db.gz
+0028.308 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0028.311 (0) Number of backup sets in history: 1; groups (db): 1
+0028.357 (0) Examining (for databases) backup set with group_id=0, nonce=ce2a70c8edca, datestamp=1708754179 (Feb 24 2024 05:56:19)
+0028.401 (0) This backup set is the backup set just made, so will not be deleted.
+0028.401 (0) Number of backup sets in history: 1; groups (files): 1
+0028.411 (0) Examining (for files) backup set with nonce=ce2a70c8edca, datestamp=1708754179 (Feb 24 2024 05:56:19)
+0028.411 (0) This backup set is the backup set just made, so will not be deleted.
+0028.413 (0) This backup set is the backup set just made, so will not be deleted.
+0028.413 (0) This backup set is the backup set just made, so will not be deleted.
+0028.413 (0) This backup set is the backup set just made, so will not be deleted.
+0028.413 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.415 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0028.460 (0) Resume backup (ce2a70c8edca, 0): finish run
+0028.624 (0) Decremented the semaphore (fd) by 1
+0028.630 (0) Semaphore (fd) unlocked
+0028.632 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0028.681 (0) No email will/can be sent - the user has not configured an email address.
+0028.723 (0) The backup succeeded and is now complete

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/ultimate-post" isTestSource="false" packagePrefix="ULTP" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/ultimate-post/addons/builder" isTestSource="false" packagePrefix="ULTP" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/ultimate-post/addons/custom_font" isTestSource="false" packagePrefix="ULTP" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/ultimate-post/addons/templates" isTestSource="false" packagePrefix="ULTP" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/ultimate-post/classes" isTestSource="false" packagePrefix="ULTP" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
