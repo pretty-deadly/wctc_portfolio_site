@@ -12,6 +12,8 @@ import { __ } from '@wordpress/i18n';
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
 import { useBlockProps } from '@wordpress/block-editor';
+import ServerSideRender from '@wordpress/server-side-render';
+import metadata from './block.json';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -20,6 +22,7 @@ import { useBlockProps } from '@wordpress/block-editor';
  * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
  */
 import './editor.scss';
+import {BlockSettings} from "./BlockSettings";
 
 /**
  * The edit function describes the structure of your block in the context of the
@@ -29,13 +32,14 @@ import './editor.scss';
  *
  * @return {Element} Element to render.
  */
-export default function Edit() {
+export default function Edit({attributes, setAttributes}) {
 	return (
-		<p { ...useBlockProps() }>
-			{ __(
-				'Portfolio Student – hello from the editor!',
-				'portfolio-student'
-			) }
-		</p>
+		<div { ...useBlockProps() }>
+			<ServerSideRender
+				block={ metadata.name }
+				skipBlockSupportAttributes
+				attributes={ attributes }
+			/>
+		</div>
 	);
 }
