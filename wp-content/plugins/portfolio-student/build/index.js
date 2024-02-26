@@ -42,12 +42,6 @@ class BlockSettings extends (react__WEBPACK_IMPORTED_MODULE_0___default().Compon
         onChange: headingColor => setAttributes({
           headingColor
         })
-      }, {
-        label: "Text Color",
-        value: attributes.textColor,
-        onChange: textColor => setAttributes({
-          textColor
-        })
       }]
     }));
   }
@@ -117,7 +111,10 @@ function Edit({
 }) {
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...(0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)()
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)((_wordpress_server_side_render__WEBPACK_IMPORTED_MODULE_3___default()), {
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_BlockSettings__WEBPACK_IMPORTED_MODULE_6__.BlockSettings, {
+    attributes: attributes,
+    setAttributes: setAttributes
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)((_wordpress_server_side_render__WEBPACK_IMPORTED_MODULE_3___default()), {
     block: _block_json__WEBPACK_IMPORTED_MODULE_4__.name,
     skipBlockSupportAttributes: true,
     attributes: attributes
@@ -264,7 +261,7 @@ module.exports = window["wp"]["serverSideRender"];
   \************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"web-club/portfolio-student","version":"0.1.0","title":"Portfolio Student","category":"design","icon":"user","description":"A block for displaying students in the portfolio showcase.","example":{},"supports":{"html":false},"textdomain":"portfolio-student","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"web-club/portfolio-student","version":"0.1.0","title":"Portfolio Student","category":"design","icon":"id","description":"A block for displaying students in the portfolio showcase.","example":{},"supports":{"html":false},"textdomain":"portfolio-student","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js","attributes":{"cardColor":{"type":"string"},"headingColor":{"type":"string"},"textColor":{"type":"string"}}}');
 
 /***/ })
 

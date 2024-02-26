@@ -35,6 +35,10 @@ import {BlockSettings} from "./BlockSettings";
 export default function Edit({attributes, setAttributes}) {
 	return (
 		<div { ...useBlockProps() }>
+			<BlockSettings
+				attributes={attributes}
+				setAttributes={setAttributes}
+			/>
 			<ServerSideRender
 				block={ metadata.name }
 				skipBlockSupportAttributes
