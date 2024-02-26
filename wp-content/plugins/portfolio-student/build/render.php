@@ -20,20 +20,22 @@ $query = new WP_Query([
 	<?php while($query->have_posts()):
 		$query->the_post();
 		?>
-		<a class="flip-card" href="<?= get_the_permalink(); ?>">
-			<div class="flip-card-inner">
-				<div class="flip-card-front">
-					<?= get_the_post_thumbnail() ?>
-				</div>
-				<div class="flip-card-back" style="background-color: <?= $attributes['cardColor'] ?>">
-					<h3 class="name" style="color: <?= $attributes['headingColor'] ?>"><?= get_the_title() ?></h3>
-					<div class="position" style="color: <?= $attributes['textColor'] ?>"><?= get_post_meta(get_the_ID(), 'program', true) ?></div>
-					<div class="bio" style="color: <?= $attributes['textColor'] ?>">
-						<p><?= get_the_excerpt() ?></p>
-					</div>
-				</div>
+	<div class="card__collection clear-fix" style="background-color: <?= $attributes['cardColor'] ?>">
+		<div class="cards cards--two">
+			<a href="<?php get_the_permalink(); ?>">
+			<div class=" img img-responsive">
+				<?= get_the_post_thumbnail() ?>
 			</div>
-		</a>
+			<span class="cards--two__rect"></span>
+			<span class="cards--two__tri"></span>
+			<p class="name" style="color: <?= $attributes['headingColor'] ?>"><?= get_the_title() ?></p>
+			<ul class="cards__list">
+				<li class="program"><?php the_field('program'); ?></li>
+			</ul>
+			</a>
+		</div>
+	</div>
 	<?php endwhile; ?>
 </div>
+
 

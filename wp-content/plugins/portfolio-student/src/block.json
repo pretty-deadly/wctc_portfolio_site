@@ -5,7 +5,7 @@
 	"version": "0.1.0",
 	"title": "Portfolio Student",
 	"category": "design",
-	"icon": "user",
+	"icon": "id",
 	"description": "A block for displaying students in the portfolio showcase.",
 	"example": {},
 	"supports": {
@@ -16,5 +16,16 @@
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
 	"render": "file:./render.php",
-	"viewScript": "file:./view.js"
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"cardColor": {
+			"type": "string"
+		},
+		"headingColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		}
+	}
 }
