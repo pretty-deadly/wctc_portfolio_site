@@ -21,6 +21,11 @@ export class BlockSettings extends React.Component {
 							value:attributes.headingColor,
 							onChange: headingColor => setAttributes({headingColor})
 						},
+						{
+							label:"Program Color",
+							value:attributes.programColor,
+							onChange: programColor => setAttributes({programColor})
+						},
 
 					]}
 				/>

@@ -16,6 +16,7 @@ $query = new WP_Query([
 ]);
 
 ?>
+
 <div <?php echo get_block_wrapper_attributes(); ?>>
 	<?php while($query->have_posts()):
 		$query->the_post();
@@ -29,12 +30,16 @@ $query = new WP_Query([
 			<span class="cards--two__rect"></span>
 			<span class="cards--two__tri"></span>
 			<p class="name" style="color: <?= $attributes['headingColor'] ?>"><?= get_the_title() ?></p>
-			<ul class="cards__list">
-				<li class="program"><?php the_field('program'); ?></li>
-			</ul>
+				<ul class="cards__list">
+					<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+					<li><a href="#"><i class="fa-solid fa-link"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+				</ul>
 			</a>
 		</div>
+		<div class="program"><p style="color: <?= $attributes['programColor'] ?>"><?php the_field('program'); ?></p></div>
 	</div>
+
 	<?php endwhile; ?>
 </div>
 

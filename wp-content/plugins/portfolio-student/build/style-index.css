@@ -11,7 +11,6 @@
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  @import 'https://fonts.googleapis.com/css?family=Do+Hyeon';
 }
 .wp-block-web-club-portfolio-student *,
 .wp-block-web-club-portfolio-student *:before,
@@ -35,7 +34,6 @@
   position: relative;
   display: block;
   padding: 10px;
-  font-family: "Do Hyeon", sans-serif;
   overflow: hidden;
 }
 .wp-block-web-club-portfolio-student .card__collection .cards {
@@ -78,6 +76,9 @@
 }
 .wp-block-web-club-portfolio-student .card__collection .cards--two:hover li {
   transform: translateY(0);
+}
+.wp-block-web-club-portfolio-student .card__collection .cards--two:hover li a {
+  color: white;
 }
 .wp-block-web-club-portfolio-student .card__collection .cards--two:hover .cards--two__tri {
   right: -40%;
@@ -159,6 +160,9 @@
 }
 .wp-block-web-club-portfolio-student .card__collection .cards--two ul li:nth-child(4) {
   transition-delay: 0.4s;
+}
+.wp-block-web-club-portfolio-student .program p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style-index.css.map*/

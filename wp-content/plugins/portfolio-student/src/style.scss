@@ -30,7 +30,7 @@
 		object-fit: cover;
 	}
 
-	@import 'https://fonts.googleapis.com/css?family=Do+Hyeon';
+
 
 	$color-box-1 : #0f9bc0;
 	$color-box-2 : rgba(34, 65, 154, .8);
@@ -43,9 +43,7 @@
 	.card__collection {
 		position: relative;
 		display: block;
-		//background: rgba(10,10,10,.5);
 		padding: 10px;
-		font-family: 'Do Hyeon', sans-serif;
 		overflow: hidden;
 
 		.cards {
@@ -97,6 +95,10 @@
 
 				li {
 					transform: translateY(0);
+					a{
+						color: white;
+					}
+
 				}
 
 				.cards--two__tri {
@@ -197,4 +199,8 @@
 		}
 	}
 
+	.program p{
+		text-align: center;
+
+	}
 }
