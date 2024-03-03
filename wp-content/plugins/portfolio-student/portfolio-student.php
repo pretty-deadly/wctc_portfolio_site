@@ -28,3 +28,5 @@ function portfolio_student_portfolio_student_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
 add_action( 'init', 'portfolio_student_portfolio_student_block_init' );
+
+include "patterns.php";
