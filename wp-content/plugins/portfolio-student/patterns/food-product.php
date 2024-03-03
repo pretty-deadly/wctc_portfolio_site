@@ -2,7 +2,7 @@
 /**
  * Title: Food Product
  * Slug: portfolio-student/food-product
- * Categories: featured
+ * Categories: food-product
  *
  * More headers can be found at:
  * https://developer.wordpress.org/themes/features/block-patterns/#registering-block-patterns
